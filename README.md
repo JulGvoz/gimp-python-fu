@@ -1,5 +1,7 @@
 # gimp-python-fu
 
+Guide: https://youtu.be/snW0wFUVdnM
+
 ## Installing this plugin
 
 1. You must have GIMP installed
