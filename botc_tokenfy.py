@@ -77,9 +77,9 @@ def botc_tokenfy(image, drawable, color, original, file):
 
     token_layer = pdb.gimp_file_load_layer(image, file)
     image.insert_layer(token_layer)
-    pdb.gimp_layer_scale(token_layer, 695, 695, FALSE)
+    pdb.gimp_layer_scale(token_layer, 385, 385, FALSE)
     pdb.gimp_layer_set_offsets(
-        token_layer, (true_size - 695) / 2, (true_size - 695) / 2
+        token_layer, (true_size - 385) / 2, (true_size - 385) / 2
     )
     pdb.gimp_layer_set_mode(token_layer, LAYER_MODE_GRAIN_EXTRACT)
     """
@@ -134,7 +134,7 @@ register(
             PF_STRING,
             "file",
             "Token file location",
-            "C:/Users/Namai/Desktop/gimp/plugins/token.png",
+            "https://raw.githubusercontent.com/JulGvoz/gimp-python-fu/main/token-square.png",
         ),
     ],
     [],
